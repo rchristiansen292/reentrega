@@ -1,0 +1,30 @@
+/* Variables */
+@import './misc/variables.scss';
+/* Normalizadores */
+@import './misc/normalize.scss';
+/* Mixins */
+@import './misc/mixins.scss';
+/* Maps */
+@import './misc/maps.scss';
+
+/* Nosotros */
+@import './views/nosotros.scss';
+/* Nuestras Birras */
+@import './views/nuestras_birras.scss';
+/* Contacto */
+@import './views/contacto.scss';
+/* Ubicacion */
+@import './views/ubicacion.scss';
+
+
+/* Footer */
+@import './partials/footer.scss';
+
+
+
+/* BOTON */
+.contenido__boton{
+    display: flex;
+    flex-direction: column;
+}
+

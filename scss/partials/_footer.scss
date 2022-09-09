@@ -1,0 +1,29 @@
+footer{
+    bottom: 0;
+    width: 100%;
+    @include color-invertido;
+    padding: 1em;
+    position: relative;
+}
+
+li{
+    display: inline;
+}
+ul{
+    list-style: none;
+}
+.footer_text{
+    text-align: end;
+    padding: 15px;
+    margin: 5px;
+    font-size: $text-small;
+    background-color: $secundary;
+}
+
+@media (max-width: 600px){
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
